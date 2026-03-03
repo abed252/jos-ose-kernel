@@ -1,18 +1,19 @@
-/obj
-/jos.in
-/jos.log
-/jos.out
-/jos.out.*
-/jos.cmd
-/.gdbinit
-/wget.log
-/qemu.pcap
-/qemu.pcap.*
-/qemu.out
-/qemu.log
-/gradelib.pyc
-/lab?-handin.tar.gz
-/lab?/
-/sol?/
-.suf
-cscope.*
+# macOS
+.DS_Store
+
+# build output
+obj/
+*.o
+*.d
+*.a
+
+# qemu artifacts
+*.pcap
+
+# editor
+.vscode/
+.idea/
+
+# local gdb
+.gdbinit
+.gdb_history
